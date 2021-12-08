@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Новогодняя распродажа — скидки до 60%</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+
+</head>
+<body>
+<script type="text/javascript" src="main.js"></script>
+	<!-- https://248006.selcdn.ru/MainSite/a3ac289f-6c74-44bc-b8ef-f4283869bf97/c/nqldvxt1-desktop-webp.webp -->  
+	<!-- задний фон хедера -->
+	<h1>Skillbox</h1>
+	<div id="profileName"></div>
+	<a id="profile" href="admin.html">Profile</a>
+	<div class="bgImage">
+		
+	</div>
+	<header>
+		<img class="header__bg" width="100%" height="100%" src="https://248006.selcdn.ru/MainSite/a3ac289f-6c74-44bc-b8ef-f4283869bf97/c/nqldvxt1-desktop-webp.webp ">
+		<p class="header__bg__text1">Новогодняя распродажа — скидки до 60%</p>
+		<p class="header__bg__text2">Выберите курсы по выгодной цене и сделайте себе подарок, который изменит вашу жизнь</p>
+	</header>
+	<div class="fixed">
+		<!-- контейнер со сроком окончания  -->
+		<label class="fixed__sale">До конца распродажи <!-- <div> JS дата </div> --> <!-- <div>img of percent</div> --> </label><img class="fixed__img" height="60px" src="screen.png">
+		<button class="fixed__log">Помогите с выбором</button>
+	</div>
+<header>
+	<div class="buttons">
+	<button class="buttons__all">Все направления</button>
+	<button class="buttons__programming">Программирование</button>
+	<button class="buttons__design">Дизайн</button>
+	<button class="buttons__marketing">Маркетинг</button>
+	<button class="buttons__control">Управление</button>
+	<button class="buttons__games">Игры</button>
+	<button class="buttons__multimedia">Мультимедиа</button>
+	<button class="buttons__psychology">Психология</button>
+	<button class="buttons__other">Другое</button>
+
+	<!-- <input type="search" name="">    поиск по курсам-->
+	</div>
+	</header>
+	<div class="underline"></div>
+
+	<form class="form left-well">
+		<label class="form__type-of-learning">Тип обучения<i class="fa fa-info-circle"></i> </label> <!-- icon of info --><br>
+		<ul style="list-style-type: none; margin-left: -42px;">
+		<li><input class="form__radio" type="radio" name="any"> Любой <br></li>
+		<li><input class="form__radio" type="radio" name="profession"> Профессия <br></li>
+		<li><input class="form__radio" type="radio" name="course"> Курс</li>
+		</ul>
+		<hr>
+
+		<label style="line-height: 65px" class="form__with-work">С трудоустройством<input type="radio" name=""> <i class="fa fa-info-circle"></i></label>  <!-- icon of info --><br>
+		<label class="form__level">Уровень сложности</label><br>
+		<ul style="list-style-type:none; margin-left: -42px">
+		<li><input class="form__radio" type="radio" name="any"> Любой <br></li>
+		<li><input class="form__radio" type="radio" name="for-beginners"> Для новичков </li>
+		<li><input class="form__radio" type="radio" name="for specialists"> Для специалистов</li> 
+	</ul>
+		<label style="line-height: 65px;" class="form__time">Длительность</label><br>
+		<label style="font-size: 15px;" class="form__time">От 1 до 24 месяцев</label>
+		<!-- time controller -->
+		<hr>
+		<label class="form__type">Тематика</label><br>
+		<ul style="list-style-type:none; margin-left: -42px">
+		<li><input class="form__checkbox" type="checkbox" name="1C"> 1C </li>
+		<li><input class="form__checkbox" type="checkbox" name="2D_3D"> 2D и 3D-графика </li>
+		<li><input class="form__checkbox" type="checkbox" name="3D"> 3D</li>
+		<li><input class="form__checkbox" type="checkbox" name="3D-animation"> 3D-анимация</li>
+		<li><input class="form__checkbox" type="checkbox" name="3D-modelation"> 3D-моделирование</li>
+		</ul>
+		<input class="form__checkbox" type="select" name="more" value="Еще 186 тематик"> 
+
+	</form>
+		<h2 class="content__high-header">Профессии<i class="fa fa-info-circle"></i></h2> <!-- icon of info -->
+	<main class="content right-well">
+		<div class="content__Data-Scientist f">
+			<h4>Профессия</h4>
+			<h3>Data Scientist PRO</h3>  <!-- img -->
+			<img class="content__image" src="https://248006.selcdn.ru/LandGen/phone_65230cde05b752f3ad673b7c8dc172a45ad958ae.png" width="90px" height="90px">
+			<ul class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background: #bbffee;" class="content__Data-Scientist__cost content__inside">
+				<label class="content__full"><s>1 801 587</s> &#8376;</label> 
+				<label class="content__credit">30 027 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale">60%</div>
+				<label class="content__tick">Рассрочка на 24 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__Data-Scientist_more content__button_more">Подробнее</button>
+			<button class="content__Data-Scientist_follow content__button_follow" onclick="dataScientist()">Записаться</button>
+		</div>
+		<div class="content__PO-Architechtor s">
+			<h4>Профессия</h4>
+			<h3>Архитектор ПО</h3>  <!-- img -->
+			<img class="content__image" width="90px" height="90px" src="https://b.radikal.ru/b29/2109/00/48c240dc5c7f.jpg">
+			<ul class="content__list" style="display: none">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="margin-top: 111px; background: #eee;" class="content__PO-Architechtor__cost content__inside">
+				<label class="content__full"><s>223 378</s>  &#8376;</label> 
+				<label class="content__credit">24200 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale" style="margin-left:-90px">35%</div>
+				<label class="content__tick">Рассрочка на 6 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__PO-Architechtor_more content__button_more">Подробнее</button>
+			<button class="content__PO-Architechtor_follow content__button_follow" onclick="architecture()">Записаться</button>
+		</div>
+		<div class="content__cybersecurity f">
+			<h4>Профессия</h4>
+			<h3>Специалист по кибербезопасности</h3>  <!-- img -->
+			<img class="content__image" src="https://checkroi.ru/wp-content/uploads/2020/06/9-768x514.jpg">
+			<ul style="margin-top:57px" class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background:#5fd7ff;" class="content__cybersecurity__cost content__inside">
+				<label class="content__full"><s>1 061 843</s> &#8376;</label> 
+				<label class="content__credit">23 597 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div  class="content__sale">60%</div>
+				<label class="content__tick">Рассрочка на 18 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__cybersecurity_more content__button_more">Подробнее</button>
+			<button class="content__cybersecurity_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__C-developer s">
+			<h4>Профессия</h4>
+			<h3>С#-разработчик</h3>  <!-- img -->
+			<img class="content__image" src="data:image/jpeg;base64,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p45JNJ7/APfQ3NF16atgmF4popRyMcjXj8iuwsbnoREQBERAEREAREQBERAEREAREQBcU0TJGuY9rXscC1zHgOa5p4gg6ELlRAVVtXuiie41GEyehz6k07yTTu6NOpj8tW8NAqxxGWqoJHQV1JJBUAeqHWa148Q4XDh1aSF6jUdjOC0mIRGCrgZURH9141afrNcNWO6ggqRh8XVoX/TfLavDrtusjVVoQq/MjyjV1kkx9Y+ryaNGj/6uxgWB1mIzdhRwPnkFs+XRkYPAyPOjBx48baXVwxblKIVZe6qndRcRT2AlLr910w/c8gHdeZsjCsMpqKFsFNCynhbwZG0NF+ZPiTzJ1K0znKctaTu+JnGKirRVkV5sdugpaXLNiTmV03EQgEUsZ8CDrL5mw93mrOYwNAa0BrQAAALAAcAAvtFiZBERAFFY9j1Nh8Xa1D7XuI422MkjvBjefnwHMhSq1fbHY+PFezcZnQSRNe0ODGyNc1xBs5pIJtbTUcStlJU3NfqNqO+xhU1tV6m013Y/a/EMUxV2WI/2c2KRkwY1piglFnR3lNi+Q6gtH1gbC11FbH0TKzaHF2yC8clJUteASPVmrb6Hkfo/yUrQbCYtQ9iKPFGdnDKx4htPSwOaHgvaYw57bOFxw534rh3V0c4xHFKiWnnhY5kEbHTwyw5ndpM5wbnAva7b28Qpk5U0qjptWaja11sa/wCs28rt9poipvU1k753vbh2ZWzsjR8bpaU1bafDhW1bnOLY45REXSPB4sY2NpYwc3OPna2tzbDYXVUWHxQVcokmBe6zS54iY52YRh7tXBt7X0HICwXcwvZ+hopaienp2xzVUhfPJd73ucTcgFxOVt9cos0eCllqxWMnXUYu9lxes78W3nyyRnRoRp3a2vhkuQREUQ3hFlEBhERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAFlEQGFlEQGFlEQBYREAWURAFhEQGVhEQBERAf//Z">
+			<ul class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background:#dfffff" class="content__C#-developer__cost content__inside">
+				<label style="margin-top: 10px" class="content__full"><s>740 735</s> &#8376;</label> 
+				<label class="content__credit">22 634 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale" style="margin-left:-90px">45%</div>
+				<label class="content__tick">Рассрочка на 18 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__C#-developer_more content__button_more">Подробнее</button>
+			<button class="content__C#-developer_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__1C-developer f">
+			<h4>Профессия</h4>
+			<h3>1С-разработчик</h3>  <!-- img -->
+			<img class="content__image" src="https://248006.selcdn.ru/LandGen/desktop_468cebf77a00674e98b6e8322a7caf3a31761433.webp">
+			
+			<ul class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background:#faeebf" class="content__1C-developer__cost content__inside">
+				<label class="content__full"><s>812 586</s> &#8376;</label> 
+				<label class="content__credit">18 058 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div style="margin-left: -90px;" class="content__sale">60%</div>
+				<label class="content__tick">Рассрочка на 18 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__1C-developer_more content__button_more">Подробнее</button>
+			<button class="content__1C-developer_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__ingeneer s">
+			<h4>Профессия</h4>
+			<h3>Инженер по тестированию</h3>  <!-- img -->
+			<img style="margin-top:-75px" class="content__image" src="https://248006.selcdn.ru/LandGen/desktop_0b95c9f42ca3ec65c771ec857e7f8193459ca51d.webp">
+			<ul style="margin-top: 60px" class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background:#dffffd" class="content__ingeneer__cost content__inside">
+				<label class="content__full"><s>1 135 223</s> &#8376;</label> 
+				<label class="content__credit">23 651 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale sale">50%</div>
+				<label class="content__tick">Рассрочка на 24 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__ingeneer_more content__button_more">Подробнее</button>
+			<button class="content__ingeneer_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__python-developer f">
+			<h4>Профессия</h4>
+			<h3>Python-разработчик</h3>  <!-- img -->
+			<img class="content__image" src="https://248006.selcdn.ru/LandGen/desktop_4589beaf332198133164e04e0fb855c2c1368858.webp">
+			<ul class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background:#ceeefe" class="content__python-developer__cost content__inside">
+				<label class="content__full"><s>1 496 223</s> &#8376;</label> 
+				<label class="content__credit">24 938 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale sale">60%</div>
+				<label class="content__tick">Рассрочка на 24 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__python-developer_more content__button_more">Подробнее</button>
+			<button class="content__python-developer_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__PHP-developer s">
+			<h4>Профессия</h4>
+			<h3>PHP-разработчик с нуля до PRO</h3>  <!-- img -->
+			<img style="margin-top:-75px" class="content__image" src="https://248006.selcdn.ru/LandGen/desktop_ef69df0ff2b047f7d37fea27a790dd8187e4404a.webp">
+			<ul style="margin-top: 60px" class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background:#faebff" class="content__PHP-developer__cost content__inside">
+				<label class="content__full"><s>698 165</s> &#8376;</label> 
+				<label class="content__credit">19 394 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale sale">50%</div>
+				<label class="content__tick">Рассрочка на 18 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__PHP-developer_more content__button_more">Подробнее</button>
+			<button class="content__PHP-developer_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__java-developer f">
+			<h4>Профессия</h4>
+			<h3>Java-разработчик</h3>  <!-- img -->
+			<img class="content__image" src="https://248006.selcdn.ru/LandGen/desktop_477ae814606ca5e5256c683921f40d2d7f29bad4.webp">
+			<ul class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background: #faebbf" class="content__java-developer__cost content__inside">
+				<label class="content__full"><s>1 296 905</s> &#8376;</label> 
+				<label class="content__credit">24 317 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale">55%</div>
+				<label class="content__tick">Рассрочка на 24 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__java-developer_more content__button_more">Подробнее</button>
+			<button class="content__java-developer_follow content__button_follow">Записаться</button>
+		</div>
+		<div class="content__frontend-developer s">
+			<h4>Профессия</h4>
+			<h3>Frontend-разработчик PRO</h3>  <!-- img -->
+			<img style="margin-top:-75px" class="content__image" src="https://248006.selcdn.ru/LandGen/desktop_98a708fd2012f5033663fece150133eac4387673.webp">
+			<ul style="margin-top: 60px" class="content__list">
+				<li>Помощь в трудоустройстве</li>
+			</ul>
+			<div style="background: #d7ffff;" class="content__frontend-developer__cost content__inside">
+				<label class="content__full"><s>1 057 427</s> &#8376;</label> 
+				<label class="content__credit">19 827 <span class="content__credit_tick">&#8376;/мес.</span></label>
+				<div class="content__sale">55%</div>
+				<label class="content__tick">Рассрочка на 24 месяца</label>
+			</div>
+			<!-- когда мышь на блоке кнопка 'подробнее' вылезала  -->
+			<button class="content__frontend-developer_more content__button_more">Подробнее</button>
+			<button class="content__frontend-developer_follow content__button_follow">Записаться</button>
+		</div>
+
+	</main>
+	<footer class="foot">
+		<div class="foot__upper">
+			<h1 class="foot__head">Поможем в выборе!</h1>
+			<p class="foot__intro">Если у вас есть вопросы о формате или вы не знаете, что выбрать, оставьте свой номер: мы позвоним, чтобы ответить на все ваши вопросы.</p>
+			<input class="foot__name" type="text" name="name" value="Имя"><!-- имя должно уйти наверх при нажатии -->
+			<input class="foot__phone" type="text" name="phone" value="Телефон"><!-- тел должно уйти наверх при нажатии -->
+			<input class="foot__email" type="text" name="email" value="Электронная почта"><!-- email должно уйти наверх при нажатии -->
+			<button class="foot__button" name="submit">Отправить</button>
+			<p class="foot__text">Нажимая на кнопку, я соглашаюсь на <a href="#">обработку персональных данных</a> и <a href="#">с правилами пользования Платформой</a></p>
+		</div>
+
+		<div class="foot__under">
+			<a href="#" class="foot__under__phone">+7780000804719</a><br><br>
+			<a href="#" class="foot__under__email">hello@skillbox.ru</a>
+			<div class="foot__under__right">
+				<a href="#">Партнерская программа</a><br>
+			<a href="#">Договор оферты</a><br>
+			<a href="#">Политика конфиденциальности</a>
+		</div>
+		</div><br><br><br>
+		<hr>
+		<div class="foot__under__dir">
+		&copy; Skillbox, 2021
+		</div>
+		 <!-- icons of soc platforms -->
+		<div class="foot__under__icons">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-vk"></i></a>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+			<a href="#"><i class="fa fa-telegram"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+		</div>
+	</footer>
+</body>
+</html>
